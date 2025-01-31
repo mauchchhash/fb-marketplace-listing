@@ -1,0 +1,10 @@
+{
+  "name": "FB marketplace listing",
+  "description": "Create Facebook marketplace listing from your own inventory",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "extension/index.html",
+    "default_icon": "extension/icon.png"
+  }
+}
