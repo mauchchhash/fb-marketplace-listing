@@ -6,5 +6,13 @@
   "action": {
     "default_popup": "extension/index.html",
     "default_icon": "extension/icon.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "js": ["extension/scripts/content.js"],
+      "matches": [
+        "https://www.facebook.com/marketplace/create/*"
+      ]
+    }
+  ]
 }
