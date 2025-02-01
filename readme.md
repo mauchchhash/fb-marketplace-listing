@@ -31,3 +31,4 @@ npm run dev
 ```sh
 npm run start
 ```
+Load the source directory from the Chrome browser's extension section
